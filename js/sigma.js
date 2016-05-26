@@ -31,3 +31,12 @@ if(n>=1){
  return sum;
 }
 }
+function sum(Array){
+ var e = 0; 
+var sum =0;
+while(e<Array.length){
+ sum = sum + Array[e];
+ e = e+1;
+}
+return sum;
+}
